@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Style for the body */
+body{
+	font-family: Arial, sans-serif;
+}
+/* Header styling */
+header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #333;
+	z-index: 1000;
+}
+/* Navbar styling */
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	color: #fff;
+}
+/* Logo styling */
+.logo {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+/*Navigation links styling*/
+.nav-links {
+	list-style: none;
+	display: flex;
+}
+.nav-links li{
+	margin-left: 1.5rem;
+}
+.nav-links a {
+	text-decoration: none;
+	color: #fff;
+	transition: color 0.3s;
+}
+.nav-links a:hover {
+	color: #f0f0f0;
+}
+/* Change navbar background on scroll */
+.scrolled {
+	background-color: #000;
+	transition: background-color 0.3s;
+}
+/* Section styling */
+section {
+	padding: 100px 20px;
+	margin-top: 60px;
+	height: 100vh;
+}
+section h1{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 2.5rem;
+}
